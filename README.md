@@ -5,7 +5,7 @@
 -->
 
 - 🔭 I’m currently working on my [personal website](www.ameet-madan.ch)
-- 🌱 I’m currently learning Python
+- 🌱 I’m currently learning Python and C/C++
 - 👯 I’m looking to collaborate on React and React Native projects
 - 🤔 I’m looking for help with back-end development
 - 📫 How to reach me: ameetmadan@gmail.com
