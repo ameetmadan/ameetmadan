@@ -14,4 +14,4 @@
 
 ![Ameet's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ameetmadan)
 
-![Ameet's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ameetmadan?layout=compact)
+![Ameet's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ameetmadan)
