@@ -14,4 +14,4 @@
 
 ![Ameet's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ameetmadan)
 
-<figure><embed src="https://wakatime.com/share/@ameetmadan/fec62613-c6c5-443a-a827-a02cb118d81d.svg"></embed></figure>
+[![wakatime](https://wakatime.com/badge/user/f7f544be-c0dc-4316-96d1-420af5f25877.svg)](https://wakatime.com/@f7f544be-c0dc-4316-96d1-420af5f25877)
