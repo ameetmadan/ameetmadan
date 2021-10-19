@@ -10,7 +10,7 @@
 - 🤔 I’m looking for help with back-end development
 - 📫 How to reach me: ameetmadan@gmail.com
 
-![Ameet's GitHub stats](https://github-readme-stats.vercel.app/api?username=ameetmadan)
+![Ameet's GitHub stats](https://github-readme-stats.vercel.app/api?username=ameetmadan&layout=compact)
 
 ![Ameet's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ameetmadan&layout=compact)
 
