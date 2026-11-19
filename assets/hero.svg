@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Ameet Madan, full-stack software engineer</title>
+  <desc id="desc">A code snippet describing Ameet's focus: TypeScript, React and Node every day, shipping Go and Swift, building local-first, type-safe, tested software.</desc>
+  <style>
+    :root {
+      --bg: #ffffff; --panel: #f6f8fa; --border: #d0d7de;
+      --text: #1f2328; --muted: #656d76;
+      --keyword: #cf222e; --string: #0a3069; --accent: #0969da; --good: #1a7f37;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117; --panel: #161b22; --border: #30363d;
+        --text: #e6edf3; --muted: #8b949e;
+        --keyword: #ff7b72; --string: #a5d6ff; --accent: #58a6ff; --good: #3fb950;
+      }
+    }
+    .bg { fill: var(--bg); }
+    .panel { fill: var(--panel); stroke: var(--border); }
+    .code { font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: var(--text); }
+    .name { font: 700 44px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--text); }
+    .role { font: 18px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: var(--muted); }
+    .tag  { font: 600 13px ui-monospace, SFMono-Regular, Menlo, monospace; fill: var(--accent); }
+    .k { fill: var(--keyword); } .s { fill: var(--string); } .a { fill: var(--accent); } .m { fill: var(--muted); }
+    .line { opacity: 0; animation: reveal 0.5s ease-out forwards; }
+    @keyframes reveal { from { opacity: 0; transform: translateX(-8px); } to { opacity: 1; transform: none; } }
+    .cursor { fill: var(--good); animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; opacity: 1; } .cursor { animation: none; } }
+  </style>
+
+  <rect class="bg" width="900" height="300" rx="14"/>
+
+  <text class="tag" x="48" y="62">~/zurich $ whoami</text>
+  <text class="name" x="48" y="122">Ameet Madan</text>
+  <text class="role" x="48" y="156">Full-stack engineer. Frontend-leaning.</text>
+  <text class="role" x="48" y="184">Regulated, workflow-heavy systems.</text>
+  <text class="role" x="48" y="226">TypeScript · React · Node · Go · Swift</text>
+
+  <rect class="panel" x="440" y="36" width="420" height="228" rx="10"/>
+  <circle cx="462" cy="58" r="5" fill="#ff5f57"/><circle cx="480" cy="58" r="5" fill="#febc2e"/><circle cx="498" cy="58" r="5" fill="#28c840"/>
+  <text class="code m" x="522" y="63" style="font-size:12px">ameet.ts</text>
+
+  <g class="code">
+    <text class="line" x="462" y="102" style="animation-delay:.2s"><tspan class="k">const</tspan> ameet = {</text>
+    <text class="line" x="482" y="128" style="animation-delay:.6s">daily: [<tspan class="s">"TypeScript"</tspan>, <tspan class="s">"React"</tspan>, <tspan class="s">"Node"</tspan>],</text>
+    <text class="line" x="482" y="154" style="animation-delay:1.0s">shipping: [<tspan class="s">"Go"</tspan>, <tspan class="s">"Swift"</tspan>],</text>
+    <text class="line" x="482" y="180" style="animation-delay:1.4s">believes: <tspan class="s">"local-first, typed, tested"</tspan>,</text>
+    <text class="line" x="462" y="206" style="animation-delay:1.8s">} <tspan class="k">satisfies</tspan> <tspan class="a">Engineer</tspan>;</text>
+    <rect class="cursor" x="462" y="222" width="9" height="17"/>
+  </g>
+</svg>
