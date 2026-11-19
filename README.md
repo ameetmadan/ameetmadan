@@ -80,20 +80,20 @@ I've contributed to [MUI](https://github.com/mui/material-ui), [npmx](https://gi
 
 | Merged | Repository | Change |
 | --- | --- | --- |
-| `2026-11-18` | [bytebuilderslab/arca](https://github.com/bytebuilderslab/arca) | [feat(backend): version each database's schema and upgrade it in place](https://github.com/bytebuilderslab/arca/pull/78) |
-| `2026-11-18` | [bytebuilderslab/arca](https://github.com/bytebuilderslab/arca) | [feat(app): add Send Feedback and Check for Updates menu items](https://github.com/bytebuilderslab/arca/pull/77) |
+| `2026-11-18` | [bytebuilderslab/arca](https://github.com/bytebuilderslab/arca) | [feat\(backend\): version each database's schema and upgrade it in place](https://github.com/bytebuilderslab/arca/pull/78) |
+| `2026-11-18` | [bytebuilderslab/arca](https://github.com/bytebuilderslab/arca) | [feat\(app\): add Send Feedback and Check for Updates menu items](https://github.com/bytebuilderslab/arca/pull/77) |
 | `2026-11-18` | [bytebuilderslab/arca](https://github.com/bytebuilderslab/arca) | [fix: stop pointing beta testers at the hidden Tidy a Folder](https://github.com/bytebuilderslab/arca/pull/76) |
-| `2026-11-18` | [bytebuilderslab/lautli](https://github.com/bytebuilderslab/lautli) | [feat(docs): optimize SEO title and description](https://github.com/bytebuilderslab/lautli/pull/46) |
+| `2026-11-18` | [bytebuilderslab/lautli](https://github.com/bytebuilderslab/lautli) | [feat\(docs\): optimize SEO title and description](https://github.com/bytebuilderslab/lautli/pull/46) |
 | `2026-11-18` | [bytebuilderslab/landing-page](https://github.com/bytebuilderslab/landing-page) | [feat: add bilingual nDSG privacy page at /privacy](https://github.com/bytebuilderslab/landing-page/pull/3) |
 
 #### Contributions to other people's projects
 
 | Project | Change |
 | --- | --- |
-| [npmx-dev/npmx.dev](https://github.com/npmx-dev/npmx.dev) | [fix(i18n): add all missing translations for German](https://github.com/npmx-dev/npmx.dev/pull/1886) |
+| [npmx-dev/npmx.dev](https://github.com/npmx-dev/npmx.dev) | [fix\(i18n\): add all missing translations for German](https://github.com/npmx-dev/npmx.dev/pull/1886) |
 | [clerk/clerk-docs](https://github.com/clerk/clerk-docs) | [Update expo.mdx](https://github.com/clerk/clerk-docs/pull/704) |
 | [reactjs/de.react.dev](https://github.com/reactjs/de.react.dev) | [Translate thinking-in-react.md](https://github.com/reactjs/de.react.dev/pull/318) |
-| [mui/material-ui](https://github.com/mui/material-ui) | [[AppBar] Add a logo component for the responsive app bar demo](https://github.com/mui/material-ui/pull/32374) |
+| [mui/material-ui](https://github.com/mui/material-ui) | [\[AppBar\] Add a logo component for the responsive app bar demo](https://github.com/mui/material-ui/pull/32374) |
 
 <sub>Generated from the GitHub API on 2026-11-19. Public repositories only.</sub>
 <!--LIVE:END-->

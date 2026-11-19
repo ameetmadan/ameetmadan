@@ -16,6 +16,21 @@ test("lists each external project once and escapes pipes", () => {
   assert.doesNotMatch(output, /fix: second/);
 });
 
+test("neutralises hostile titles: markers, links, HTML, newlines, length", () => {
+  const hostile = "x <!--LIVE:END--> [evil](https://evil.test)\n| extra | cell |<script>" + "a".repeat(300);
+  const output = renderLiveSection({ recent: [pr("a/b", hostile)], external: [] });
+  assert.doesNotMatch(output, /<!--LIVE:END-->/);
+  assert.doesNotMatch(output, /<script>/);
+  assert.doesNotMatch(output, /\[evil\]\(/);
+  assert.equal(output.split("\n").filter((line) => line.startsWith("| `")).length, 1);
+  assert.ok(output.length < 700);
+});
+
+test("rejects pull request URLs outside github.com", () => {
+  const bad = { ...pr("a/b", "feat: x"), url: "https://evil.test/x" };
+  assert.throws(() => renderLiveSection({ recent: [bad], external: [] }), /Unexpected pull request URL/);
+});
+
 test("replaces only the marked region", () => {
   const result = replaceBetweenMarkers("top\n<!--LIVE:START-->\nold\n<!--LIVE:END-->\nbottom", "new");
   assert.equal(result, "top\n<!--LIVE:START-->\nnew\n<!--LIVE:END-->\nbottom");

@@ -28,8 +28,21 @@ async function searchMergedPullRequests(extraQuery, perPage) {
   }));
 }
 
-const escapeTableCell = (text) => text.replaceAll("|", "\\|");
-const pullRequestLink = (pr) => `[${escapeTableCell(pr.title)}](${pr.url})`;
+const MAX_TITLE_LENGTH = 120;
+
+// Maintainers of other people's repos can rename my PRs, and this output is committed unattended,
+// so a title must never be able to add links, HTML, table cells or the LIVE markers.
+const sanitizeTitle = (title) =>
+  title
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, MAX_TITLE_LENGTH)
+    .replace(/[\\`*_[\]()<>!#|~&]/g, "\\$&");
+
+const pullRequestLink = (pr) => {
+  if (!pr.url.startsWith("https://github.com/")) throw new Error(`Unexpected pull request URL: ${pr.url}`);
+  return `[${sanitizeTitle(pr.title)}](${pr.url})`;
+};
 
 export function renderLiveSection({ recent, external }, now = new Date()) {
   const recentRows = recent
